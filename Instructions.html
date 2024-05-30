@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    h3 {
+      color: #4b0082;
+      border-bottom: 2px solid #4b0082;
+      padding-bottom: 10px;
+    }
+    h4 {
+      color: #4b0082;
+      margin-top: 30px;
+    }
+    ol, ul {
+      margin-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    ul li {
+      list-style-type: disc;
+    }
+    p {
+      margin-top: 20px;
+    }
+    .example ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .example ul li {
+      background: #e6e6fa;
+      margin-bottom: 5px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Instructions for Using the Hunter.io Tool</h3>
+  <ol>
+    <li><b>API Configuration:</b>
+      <ul>
+        <li>Open Google Sheets.</li>
+        <li>Go to the <b>Hunter.io</b> menu.</li>
+        <li>Select <b>Configure API</b>.</li>
+        <li>Enter your Hunter.io API key in the dialog box that appears and click <b>Save</b>.</li>
+      </ul>
+    </li>
+    <li><b>Data Preparation:</b>
+      <ul>
+        <li>In your Google Sheets spreadsheet, enter the following information:</li>
+        <li>Cell <b>A3</b>: First name of the person.</li>
+        <li>Cell <b>B3</b>: Last name of the person.</li>
+        <li>Cell <b>C3</b>: Company domain name (e.g., <i>example.com</i>).</li>
+      </ul>
+    </li>
+    <li><b>Email Search:</b>
+      <ul>
+        <li>Go to the <b>Hunter.io</b> menu.</li>
+        <li>Select <b>Search Emails</b>.</li>
+        <li>The corresponding email address will be displayed in cell <b>D3</b>.</li>
+      </ul>
+    </li>
+  </ol>
+  <h4>Example</h4>
+  <p>Suppose you are looking for the email of John Doe who works at Example Inc.</p>
+  <div class="example">
+    <ul>
+      <li>Cell <b>A3</b>: John</li>
+      <li>Cell <b>B3</b>: Doe</li>
+      <li>Cell <b>C3</b>: example.com</li>
+    </ul>
+  </div>
+  <p>Then, select <b>Hunter.io > Search Emails</b> to get the email address in cell <b>D3</b>.</p>
+</body>
+</html>
